@@ -128,7 +128,7 @@ Another minor optimization issue is in `get_scores()`, which especially impacts 
 Other attempts only resulted in longer, less-readable code. The only remaining option would be again to change the data types of `sp.feature_weights` and/or of *scores*. 
 
 Altogether, I was able to achieve savings of around 30-40% in computational speed compared to the initial stage before profiling. \
-I believe there is still room for improvement, due to the aforementioned outstanding issues, but at this point I had unfortunately ran out of time.
+I believe there is still room for improvement, due to the aforementioned outstanding issues.
 
 
 ### TO DO
