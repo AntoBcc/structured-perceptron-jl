@@ -1,4 +1,4 @@
-include("SP.jl")
+include("..src/SP.jl")
 
 using WordTokenizers
 
